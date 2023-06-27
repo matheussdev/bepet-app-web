@@ -5,5 +5,13 @@
   "name": "bepet-app",
   "short_name": "bepet-app",
   "start_url": "/?utm_source=web_app_manifest",
-  "orientation": "portrait"
+  "orientation": "portrait",
+  "related_applications": [
+    {
+      "platform": "play",
+      "url": "http://play.google.com/store/apps/details?id=com.matheussdev.bepetapp",
+      "id": "com.matheussdev.bepetapp"
+    }
+  ],
+  "prefer_related_applications": true
 }
